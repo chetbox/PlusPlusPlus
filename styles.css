@@ -1,0 +1,40 @@
+/* hide all the UI fluff */
+.Fgb, .Pfb, .N3, .Nn, .gwa, .kCd.Jse, .Uc.ZJ, .vyd, .Ide, .qMc, .CJb, .GY, .fOa, .talk_chat_widget {
+	display: none !important;
+}
+
+/* container for posts */
+.pga {
+	width: 1400px !important;
+}
+
+/* individual posts */
+.Xa {
+	float: left !important;
+	margin-right: 1em !important;
+	margin-top: 0 !important;
+	width: 480px !important;
+}
+
+/* add comment section within a post */
+.Qg, .Tt {
+	height: 0 !important;
+	visibility: hidden !important;
+}
+
+/* number of +1s */
+.Gc.eswa {
+	visibility: visible !important;
+	position: relative !important;
+	top: -64px !important;
+}
+
+/* text within a post */
+.Ct {
+	font-size: 2em !important;
+}
+
+/* container for text within a post */
+.Pm {
+	max-height: none !important;
+}

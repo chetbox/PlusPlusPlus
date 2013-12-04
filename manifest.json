@@ -1,0 +1,13 @@
+{
+	"name" : "Plus++",
+	"manifest_version" : 2,
+	"version" : "0.1",	
+	"description" : "Make a Google+ event feed worthy of a big screen",
+	"icons" : { "256" : "gplus.png" },
+  	"content_scripts": [
+    	{
+			"matches": ["https://plus.google.com/events/*"],
+     		"css": ["styles.css"]
+    	}
+   ]
+}
